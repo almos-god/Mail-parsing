@@ -1,0 +1,1072 @@
+Received: from smtp-61.steampowered.com (smtp-61.steampowered.com [208.64.202.61])
+	by newxmmxszc11-0.qq.com (NewMX) with SMTP id 55EB24EB
+	for <291325703@qq.com>; Sun, 09 Jun 2024 12:21:30 +0800
+X-QQ-mid: xmmxzc11-0t1717906890tab6d2wfr
+X-QQ-XMAILINFO: MIgz6yiMLC5hTXIyMOH0niO/XlnkALIUr6tx87kk2AW7T+7T3dBbrMxtWI69OD
+	 YoUwAF12rjTeJnItywzVhq9nrMaKrUj9RdPDymtY70yrHbN6PcpfRXdBfdAeXHPzwctz/tfOfY5U
+	 gdwiAMlLsqEAFx/fRWiejy/5zineFb7ePO9Dr46jd5Pm6eTtz5xFrFB/404uVpPzUizNXQtDZbOu
+	 Zahhowi1yuhQhD1SRR6C3UiuAdm/YsgQ+vfhjZfgPFwVL9VzD3lbVZG/dmuy48+XWYehx1sB5fee
+	 TbY25WN/gYTbZ80exJcP3ciTW40lTaDcmvbABsFdu2OhRPxgk9RSFiXZTmYshjrH1gBuopCW8pzr
+	 yX/om73AGS5HG6uJLbo71OPBQMZSN1/YBR69K0TOBTXnUWK1J9ogz9v9BbRsCAky2QmrOimEBP8D
+	 vsHbk4RfIi5YMnFtfeJ29Q8M8FlAiESOyoVTBhziGYtwhQXgyYTtauTGggdQ4HJyzJLeDUu/ulVw
+	 xyNkTFYbLbR4JcmP4UbYX/Fjz18XCrx/3HuJhd929KpugII8YPqEgLOc6BiKKOzPd3+9U+SXSDdv
+	 hRCILoQwS60KikAkksXSG4mz8/RpiB+cuOBExTq/6r31Nj+mt6GWDDbiKtffRcvUT5m+ixwrwSrS
+	 iEg0CCfQAapz0qDBsmfiUERDAmN8kU6SSBxDFFa8mIi1f2eTxarrkWNr1nS85ws/Bp9C8WvTxPv5
+	 oPnasoQjAa4sIqoTE7+85ezBM63rfcDwLTdcIEajB8es8M/QWituDLkfDcGzhjFf+nU66BrZtpc7
+	 NENeMwWMIW1tAuOeRf2LsJ//ZtYWKNdAKAsCkBirrVhhUbQnAeeam3w7/rchStmmjaB6uvIO5bU0
+	 H+u5g850+W2kY1s2EM/Bw+l1qfyDv+pJ48I51Dy+2kFuLCc3edxEMqLw7/YjiGvVxGb+2G3Xp6Tj
+	 FjEceIL3tk8uS5rU0q2agu6lhrJPeXttMOnrH97hDgkReuBXdqUFH6vchyCKJ07ntcFnF94tbcae
+	 kjIkRkz3b9i2PHQUZHPE9y87pFqMKu796uLL7cprYfKmwoHCN8lc6XpEAMfj2637BPvocLUNC4CE
+	 Y94XEW6fvODnCVdGbZbrbUTRrH4SxjQ9EgDbC016NBdWYZQvP5PZjkhUuq43jwo8qTe7qqwdjShE
+	 +85vSMFFkjpzQJCj7s42+IXKb/MNmt81wGGZn1gEqCed+8awYjbJOBLniJigDy5RNn+m19aeBO3b
+	 dbQyZYKpiYtffQLuNAbRGtRGW0JuweOEBzs4fm6VYSu8ciIKOAQBG4NmLuINFLtfW2/7TFC4rJqi
+	 NYCjvQkOBjRYKDCXoVF5WdWOMMdP5aCJ5agFvI9EHFF5BJmzoeFa/tbKfxnfb3fQGMfkbEWT09Ld
+	 hhi2MwfS+vaw==
+X-QQ-XMRINFO: OD9hHCdaPRBwq3WW+NvGbIU=
+Authentication-Results: mx.qq.com; spf=pass(208.64.202.61) smtp.mailfrom=<nore
+	 ply@steampowered.com>; dkim=pass(signature was verified) header.d=steampower
+	 ed.com; dmarc=pass(p=REJECT sp=REJECT pct=100) header.from=steampowered.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject:
+	MIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=SfPVx8WlsuExQVxihNxgFYmPgNXuIbb8yOCVQ5s1MzU=; b=QkagZ9HFhvw+L6HCJJ/QuzN19i
+	5x4IyaIUyWBv6VY4RsuV2iTO+S9b1gRZG5U0kTT5r9GFsFVqYkaJb2bnwPgUuaKOOARferJmGYshM
+	RiT/we8JqBc2mvWIQKt7tnHKpwi05LsY5doMQzL5tnj7PFXV8O9rTo2nzG9RedJF1/uc=;
+Received: from [208.78.167.7] (helo=valvesoftware.com)
+	by smtp-02-tuk1.steampowered.com with smtp (Exim 4.93)
+	(envelope-from <noreply@steampowered.com>)
+	id 1sGA3e-002b6G-4Z
+	for 291325703@qq.com; Sat, 08 Jun 2024 21:21:30 -0700
+To: 291325703@qq.com
+From: "Steam Support" <noreply@steampowered.com>
+Reply-To: <noreply@steampowered.com>
+Errors-To: <noreply@steampowered.com>
+X-Steam-Message-Type: CPurchaseReceipt
+MIME-Version: 1.0
+Subject: =?UTF-8?B?5oSf6LCi5oKo5ZyoIFN0ZWFtIOS4iueahOi0reS5sO+8gQ==?=
+Content-Type: multipart/alternative;
+ boundary="np66652dca1aacc"
+Message-Id: <E1sGA3e-002b6G-4Z@smtp-02-tuk1.steampowered.com>
+Date: Sat, 08 Jun 2024 21:21:30 -0700
+
+This is a multi-part message in MIME format.
+--np66652dca1aacc
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+
+yuhuiming1997=EF=BC=8C=E6=82=A8=E5=A5=BD=EF=BC=81
+
+=E6=84=9F=E8=B0=A2=E6=82=A8=E8=BF=91=E6=9C=9F=E5=9C=A8 Steam =E4=B8=8A=
+=E7=9A=84=E4=BA=A4=E6=98=93=E3=80=82=E8=A6=81=E6=9F=A5=E7=9C=8B=E8=AF=A6=
+=E6=83=85=EF=BC=8C=E8=AF=B7=E8=AE=BF=E9=97=AE
+https://store.steampowered.com/email/PurchaseReceipt?sparams=3DeJyFVMtu2zAQ=
+_JVC58KRZMu2cgqQey45FU5BrMmNRISiZHJpVyj67yX1cCXZSW_izJDanX38jhQ4zUs01DYYPUZ=
+x9D0yCKry34Wqj6A80JhaOE4aqiB5JYTKo9Y1TW0IK5DKw8PxyQa6qS9oUKx4PVFaSeF-SdTYx7=
+eHt4cSVbO6ox8etajJEfdXkl2yy-PtPg_hHaVSUheM106TaT39_DKBZbNkgHfAEH7rSicrr0zyf=
+OdZMqCtFJ5Z53mSZ7s82e3SbJOn2-2VB06y1kxAl8EYThb4wqGlwTmqu8BBCIPWejDNk3Wa7eL1=
+0-k0JNe9N7id-DN6d89SoGENtJVPmVVIZR0C2meel9Ygd8b4iAfB8LOjLeuLwKMrLnj0qX8MeBC=
+j5iH9dO3PF1AKiUEVTBg0139e0XW6j_sUCBTzlaq8jfYT5gzqjExIyydvTniCXzPQlrJp-ppZus=
+8sr8gqtAx7R5zB3ouWd3VeMotoxwyhGtBVHH97fvnhqRKs95p_QDHW4Aw0aZpwHcFoFEzVLShqG=
+dUfqENBN1nnade0PpgLGMGaWmqyzM8KaB6ezLI03XqVjxNHK3ufkhnad8EhGoP5OSVDSx6iJM7W=
+myyZU32qhyHXGbWszCFaCLzPcFT_k9xHmen6_4Yai_gF9cmj0yrfkItaf_n2Z6EJtNzIJkxvYOf=
+kidrO49tEe_Pn-LhgoDCI3aCO9Vs6JStkTst73r4bPLl-Ou_l28_5dSq_kPyb8hvRsO-kYIV8p7=
+vWdWtqQgd2zM9Sv-VmOzX0bhKvkv1mtd2usni-cMcrr5KXDvRiG0vqVnGJuhAu-vMXihEt-g=
+=E3=80=82
+
+
+=E7=A5=9D=E6=82=A8=E6=84=89=E5=BF=AB=EF=BC=8C
+Steam =E5=9B=A2=E9=98=9F
+
+--
+
+=E6=AD=A4=E9=80=9A=E7=9F=A5=E5=B7=B2=E5=8F=91=E9=80=81=E8=87=B3=E4=B8=8E=
+=E6=82=A8=E7=9A=84 Steam =E5=B8=90=E6=88=B7=E5=85=B3=E8=81=94=E7=9A=84=
+=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E5=9C=B0=E5=9D=80=E3=80=82
+
+=E8=BF=99=E5=B0=81=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E7=94=B1=E7=B3=BB=
+=E7=BB=9F=E8=87=AA=E5=8A=A8=E7=94=9F=E6=88=90=EF=BC=8C=E8=AF=B7=E5=8B=BF=
+=E5=9B=9E=E5=A4=8D=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E9=9C=80=E8=A6=81=
+=E9=A2=9D=E5=A4=96=E5=B8=AE=E5=8A=A9=EF=BC=8C=E8=AF=B7=E8=AE=BF=E9=97=AE St=
+eam =E5=AE=A2=E6=9C=8D=E3=80=82
+https://help.steampowered.com
+
+=C2=A9 Valve Corporation
+=E4=BF=9D=E7=95=99=E6=89=80=E6=9C=89=E6=9D=83=E5=88=A9=E3=80=82=E6=89=80=
+=E6=9C=89=E5=95=86=E6=A0=87=E5=9D=87=E4=B8=BA=E5=85=B6=E5=9C=A8=E7=BE=8E=
+=E5=9B=BD=E5=8F=8A=E5=85=B6=E4=BB=96=E5=9B=BD=E5=AE=B6/=E5=9C=B0=E5=8C=
+=BA=E7=9A=84=E5=90=84=E8=87=AA=E6=8C=81=E6=9C=89=E8=80=85=E6=89=80=E6=9C=
+=89=E3=80=82
+
+--
+
+=E5=9C=A8=E7=BD=91=E9=A1=B5=E4=B8=8A=E6=9F=A5=E7=9C=8B=E6=AD=A4=E6=B6=88=
+=E6=81=AF=EF=BC=9A
+https://store.steampowered.com/email/PurchaseReceipt?sparams=3DeJyFVMtu2zAQ=
+_JVC58KRZMu2cgqQey45FU5BrMmNRISiZHJpVyj67yX1cCXZSW_izJDanX38jhQ4zUs01DYYPUZ=
+x9D0yCKry34Wqj6A80JhaOE4aqiB5JYTKo9Y1TW0IK5DKw8PxyQa6qS9oUKx4PVFaSeF-SdTYx7=
+eHt4cSVbO6ox8etajJEfdXkl2yy-PtPg_hHaVSUheM106TaT39_DKBZbNkgHfAEH7rSicrr0zyf=
+OdZMqCtFJ5Z53mSZ7s82e3SbJOn2-2VB06y1kxAl8EYThb4wqGlwTmqu8BBCIPWejDNk3Wa7eL1=
+0-k0JNe9N7id-DN6d89SoGENtJVPmVVIZR0C2meel9Ygd8b4iAfB8LOjLeuLwKMrLnj0qX8MeBC=
+j5iH9dO3PF1AKiUEVTBg0139e0XW6j_sUCBTzlaq8jfYT5gzqjExIyydvTniCXzPQlrJp-ppZus=
+8sr8gqtAx7R5zB3ouWd3VeMotoxwyhGtBVHH97fvnhqRKs95p_QDHW4Aw0aZpwHcFoFEzVLShqG=
+dUfqENBN1nnade0PpgLGMGaWmqyzM8KaB6ezLI03XqVjxNHK3ufkhnad8EhGoP5OSVDSx6iJM7W=
+myyZU32qhyHXGbWszCFaCLzPcFT_k9xHmen6_4Yai_gF9cmj0yrfkItaf_n2Z6EJtNzIJkxvYOf=
+kidrO49tEe_Pn-LhgoDCI3aCO9Vs6JStkTst73r4bPLl-Ou_l28_5dSq_kPyb8hvRsO-kYIV8p7=
+vWdWtqQgd2zM9Sv-VmOzX0bhKvkv1mtd2usni-cMcrr5KXDvRiG0vqVnGJuhAu-vMXihEt-g
+
+--np66652dca1aacc
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta http-equiv=3D"Content-type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, maximum-scale=3D1" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <meta name=3D"format-detection" content=3D"date=3Dno" />
+    <meta name=3D"format-detection" content=3D"address=3Dno" />
+    <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+    <meta name=3D"x-apple-disable-message-reformatting" />
+    <title>=E6=84=9F=E8=B0=A2=E6=82=A8=E5=9C=A8 Steam =E4=B8=8A=E7=9A=84=
+=E8=B4=AD=E4=B9=B0=EF=BC=81</title>
+    <!--[if gte mso 9]>
+    <style type=3D"text/css" media=3D"all">
+        sup { font-size: 100% !important; }
+    </style>
+    <![endif]-->
+
+        <!--[if !mso]><!-->
+    <style type=3D"text/css" media=3D"screen">
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Motiva Sans'), url('https://store.akamai.steamstati=
+c.com/public/shared/fonts/email/MotivaSans-Light.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Motiva Sans'), url('https://store.akamai.steamstati=
+c.com//public/shared/fonts/email/MotivaSans-Regular.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: bold;
+            src: local('Motiva Sans'), url('https://store.akamai.steamstati=
+c.com//public/shared/fonts/email/MotivaSans-Bold.woff') format('woff');
+        }
+
+        [style*=3D'Motiva Sans'] {
+            font-family: 'Motiva Sans', Arial, sans-serif !important;
+        }
+    </style>
+    <!--<![endif]-->
+
+    <style type=3D"text/css" media=3D"screen">
+        body { padding:0 !important; margin:0 auto !important; display:bloc=
+k !important; min-width:100% !important; width:100% !important; background:=
+#ffffff; -webkit-text-size-adjust:none }
+        a { color:#7abefa; text-decoration:underline }
+        body a { color:#ffffff; text-decoration:underline }
+        img { margin: 0 !important; -ms-interpolation-mode: bicubic; /* All=
+ow smoother rendering of resized image in Internet Explorer */ }
+
+        /* for recepits */
+            table { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+            img, a img{ border:0; outline:none; text-decoration:none; }
+            #outlook a { padding:0; }
+            .ReadMsgBody { width:100%; }
+            .ExternalClass { width:100%; }
+            div,p,a,li,td,blockquote { mso-line-height-rule:exactly; }
+            a[href^=3Dtel],a[href^=3Dsms] { color:inherit; text-decoration:=
+none; }
+            .ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalC=
+lass div, .ExternalClass span, .ExternalClass font { line-height:100%; }
+        /* END for recepits */
+
+        a[x-apple-data-detectors] { color: inherit !important; text-decorat=
+ion: inherit !important; font-size: inherit !important; font-family: inheri=
+t !important; font-weight: inherit !important; line-height: inherit !import=
+ant; }
+
+        .btn-18 a { display: block; padding: 13px 35px; text-decoration: no=
+ne; }
+
+        .l-white a { color: #ffffff; }
+        .l-black a { color: #000001; }
+        .l-grey1 a { color: #dbdee2; }
+        .l-grey2 a { color: #a1a2a4; }
+        .l-grey3 a { color: #dadcdd; }
+        .l-grey4 a { color: #f1f1f1; }
+        .l-grey5 a { color: #dddedf; }
+        .l-grey6 a { color: #bfbfbf; }
+        .l-grey7 a { color: #dcdddd; }
+        .l-grey8 a { color: #8e96a4; }
+        .l-green a { color: #a4d007; }
+        .l-blue a { color: #6a7c96; }
+        .l-blue1 a { color: #7abefa; }
+        .l-blue2 a { color: #9eb8cc; }
+
+
+        /* Mobile styles */
+        @media only screen and (max-device-width: 480px), only screen and (=
+max-width: 480px) {
+            .mpy-35 { padding-top: 35px !important; padding-bottom: 35px !i=
+mportant; }
+
+            .mpx-15 { padding-left: 15px !important; padding-right: 15px !i=
+mportant; }
+
+            .mpx-20 { padding-left: 20px !important; padding-right: 20px !i=
+mportant; }
+
+            .mpb-30 { padding-bottom: 30px !important; }
+
+            .mpb-10 { padding-bottom: 10px !important; }
+
+            .mpb-15 { padding-bottom: 15px !important; }
+
+            .mpb-20 { padding-bottom: 20px !important; }
+
+            .mpb-35 { padding-bottom: 35px !important; }
+
+            .mpb-40 { padding-bottom: 40px !important; }
+
+            .mpb-50 { padding-bottom: 50px !important; }
+
+            .mpb-60 { padding-bottom: 60px !important; }
+
+            .mpt-30 { padding-top: 30px !important; }
+
+            .mpt-40 { padding-top: 40px !important; }
+
+            .mpy-40 { padding-top: 40px !important; padding-bottom: 40px !i=
+mportant; }
+
+            .mpt-0 { padding-top: 0px !important; }
+
+            .mpr-0 { padding-right: 0px !important; }
+
+            .mfz-14 { font-size: 14px !important; }
+
+            .mfz-28 { font-size: 28px !important; }
+
+            .mfz-16 { font-size: 16px !important; }
+
+            .mfz-24 { font-size: 24px !important; }
+
+            .mlh-18 { line-height: 18px !important; }
+
+            u + body .gwfw { width:100% !important; width:100vw !important;=
+ }
+
+            .td,
+            .m-shell { width: 100% !important; min-width: 100% !important; =
+}
+
+            .mt-left { text-align: left !important; }
+            .mt-center { text-align: center !important; }
+            .mt-right { text-align: right !important; }
+
+            .m-left { text-align: left !important; }
+            .me-left { margin-right: auto !important; }
+            .me-center { margin: 0 auto !important; }
+            .me-right { margin-left: auto !important; }
+
+            .mh-auto { height: auto !important; }
+            .mw-auto { width: auto !important; }
+
+            .fluid-img img { width: 100% !important; max-width: 100% !impor=
+tant; height: auto !important; }
+
+            .column,
+            .column-top,
+            .column-dir,
+            .column-dir-top { float: left !important; width: 100% !importan=
+t; display: block !important; }
+
+            .kmMobileStretch { float: left !important; width: 100% !importa=
+nt; display: block !important; padding-left: 0 !important; padding-right: 0=
+ !important; }
+
+            .m-hide { display: none !important; width: 0 !important; height=
+: 0 !important; font-size: 0 !important; line-height: 0 !important; min-hei=
+ght: 0 !important; }
+            .m-block { display: block !important; }
+
+            .mw-15 { width: 15px !important; }
+
+            .mw-2p { width: 2% !important; }
+            .mw-32p { width: 32% !important; }
+            .mw-49p { width: 49% !important; }
+            .mw-50p { width: 50% !important; }
+            .mw-100p { width: 100% !important; }
+
+            .mbgs-200p { background-size: 200% auto !important; }
+        }
+    </style>
+</head>
+
+
+<body class=3D"body" style=3D"padding:0 !important; margin:0 auto !importan=
+t; display:block !important; min-width:100% !important; width:100% !importa=
+nt; background:#ffffff; -webkit-text-size-adjust:none;">
+<center>
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"s=
+tyle=3D"margin: 0; padding: 0; width: 100%; height: 100%;" bgcolor=3D"#ffff=
+ff" class=3D"gwfw">
+        <tr>
+            <td style=3D"margin: 0; padding: 0; width: 100%; height: 100%;"=
+ align=3D"center" valign=3D"top">
+                <table width=3D"775" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"class=3D"m-shell">
+                    <tr>
+                        <td class=3D"td" style=3D"width:775px; min-width:77=
+5px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:norma=
+l;">
+                            <table width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                                <!-- Main -->
+                                <tr>
+                                    <td class=3D"p-80 mpy-35 mpx-15" bgcolo=
+r=3D"#212429" style=3D"padding: 80px;">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+
+                                            <!-- Logo -->
+                                            <tr>
+                                                <td class=3D"img pb-45" sty=
+le=3D"font-size:0pt; line-height:0pt; text-align:left; padding-bottom: 45px=
+;">
+                                                    <a href=3D"https://stor=
+e.steampowered.com/" target=3D"_blank">
+                                                        <img src=3D"https:/=
+/store.akamai.steamstatic.com/public/shared/images/email/logo.png" width=3D=
+"615" height=3D"88" border=3D"0" alt=3D"Steam" />
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <!-- END Logo -->
+
+                                            <!-- All Content Exists within =
+this table column -->
+                                            <tr>
+                                                <td>
+
+
+<!-- Welcome  -->
+=09=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"title-36 pb-30 c-grey6 fw-b" style=3D"font-size=
+:36px; line-height:42px; font-family:Arial, sans-serif, 'Motiva Sans'; text=
+-align:left; padding-bottom: 30px; color:#bfbfbf; font-weight:bold;">yuhuim=
+ing1997=EF=BC=8C=E6=82=A8=E5=A5=BD=EF=BC=81</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!-- End Welcome -->
+
+    <!-- Intro  -->
+    =09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"title-28 c-white pb-30" style=3D"font-size:28px=
+; line-height:36px; font-family:Arial, sans-serif, 'Motiva Sans'; text-alig=
+n:left; color:#ffffff; padding-bottom: 30px;">
+=09=09=09=09=09=09<strong>=E6=84=9F=E8=B0=A2=E6=82=A8=E8=BF=91=E6=9C=9F=
+=E5=9C=A8 Steam =E4=B8=8A=E7=9A=84=E4=BA=A4=E6=98=93=E3=80=82</strong>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09    <!-- End Intro -->
+
+    <!-- Text -->
+    =09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"text-18 c-grey4 pb-30" style=3D"font-size:18px;=
+ line-height:25px; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left; color:#dbdbdb; padding-bottom: 30px;">        =E4=BB=A5=E4=B8=8B=
+=E7=89=A9=E5=93=81=E5=B7=B2=E6=B7=BB=E5=8A=A0=E5=88=B0=E6=82=A8=E7=9A=84 St=
+eam =E5=BA=93=E3=80=82        <br/><br/>
+        =E5=A6=82=E6=9E=9C=E6=82=A8=E6=9C=AA=E6=9B=BE=E4=BD=BF=E7=94=A8=
+=E8=BF=87 Steam=EF=BC=8C=E6=82=A8=E5=8F=AF=E4=BB=A5<a href=3D"http://www.st=
+eampowered.com/getsteam">=E5=9C=A8=E6=AD=A4</a>=E8=8E=B7=E5=BE=97=E5=85=
+=8D=E8=B4=B9=E7=9A=84 Steam =E7=A8=8B=E5=BA=8F=E3=80=82
+        </td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09    <!-- End Text -->
+
+
+
+                <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+                <tr><td style=3D"padding-top: 10px;" colspan=3D"3"></td></t=
+r>
+                <tr><td style=3D"font-family:'Motiva Sans', Arial, sans-ser=
+if; padding-top: 10px; padding-bottom: 20px; color: #6892A7; font-size: 14p=
+x; text-transform: uppercase;" colspan=3D"3">=E6=82=A8=E7=9A=84 Steam =
+=E7=82=B9=E6=95=B0</td></tr>
+                <tr>
+                    <td style=3D"font-family:'Motiva Sans', Arial, sans-ser=
+if; border: 1px solid #4B99E1;height: 77px; padding: 10px;" colspan=3D"3" b=
+ackground=3D"https://store.akamai.steamstatic.com/public/images/v6/cart/ste=
+am_rewards_checkout_banner.png" bgcolor=3D"#17253d">
+                        <table width=3D"100%" style=3D"height: 77px;">
+                            <tr>
+                                <td>
+                                    <div style=3D"font-family:'Motiva Sans'=
+, Arial, sans-serif; color: #74A2B8;font-weight: bold; font-size: 13px; pad=
+ding-bottom: 20px;">=E6=82=A8=E5=B7=B2=E8=8E=B7=E5=BE=97 Steam =E7=82=B9=
+=E6=95=B0</div>
+                                    <div>
+                                        <a style=3D"font-family:'Motiva San=
+s', Arial, sans-serif; color: #ffffff; font-size: 13px;" href=3D"https://st=
+ore.steampowered.com/points/shop">=E8=AE=BF=E9=97=AE=E7=82=B9=E6=95=B0=
+=E5=95=86=E5=BA=97</a>
+                                    </div>
+                                </td>
+                                <td style=3D"text-align: right;"><img src=
+=3D"https://store.akamai.steamstatic.com/public/images/v6/cart/steam_reward=
+s_logo_small.png?v=3D2"></td>
+                                <td class=3D"text-15 c-grey4 mt-right" styl=
+e=3D"font-family:'Motiva Sans', Arial, sans-serif; color:#74A2B8; font-weig=
+ht:bold; font-size: 15px;text-align:left;">4,523</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+           =20
+
+
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+                <tr>
+                    <td class=3D"pt-10" style=3D"padding-top: 10px;">
+                        <table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+                            <tr>
+                                <td class=3D"p-15" bgcolor=3D"#393e47" styl=
+e=3D"padding: 15px;">
+                                    <table width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+                                        <tr>
+                                            <th class=3D"column" width=3D"1=
+84" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; font-weig=
+ht:normal;">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td class=3D"fluid-=
+img" style=3D"font-size:0pt; line-height:0pt; text-align:left;"><img src=3D=
+"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720=
+/capsule_231x87_schinese.jpg?t=3D1717842123" width=3D"184" height=3D"69" bo=
+rder=3D"0" alt=3D"" /></td>
+                                                    </tr>
+                                                </table>
+                                            </th>
+                                            <th class=3D"column mpb-15" wid=
+th=3D"15" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; fon=
+t-weight:normal;"></th>
+                                            <th class=3D"column" width=3D"2=
+00" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; font-weig=
+ht:normal;">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td class=3D"text-1=
+7 c-white mt-left" style=3D"font-size:17px; line-height:22px; font-family:'=
+Motiva Sans', Arial, sans-serif; text-align:left; color:#ffffff;">
+                                                            <strong>=
+=E9=BB=91=E7=A5=9E=E8=AF=9D=EF=BC=9A=E6=82=9F=E7=A9=BA =E6=95=B0=E5=AD=
+=97=E8=B1=AA=E5=8D=8E=E7=89=88<br/></strong>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </th>
+                                            <th class=3D"column mpb-15" wid=
+th=3D"15" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; fon=
+t-weight:normal;"></th>
+                                            <th class=3D"column" style=3D"v=
+ertical-align: top; font-size:0pt; line-height:0pt; padding:0; margin:0; fo=
+nt-weight:normal;">
+                                               =20
+=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+=09=09=09
+            =09=09=09<tr>
+=09=09=09=09<td class=3D"text-14 c-white a-right mt-left" style=3D"font-siz=
+e:14px; line-height:20px; font-family:'Motiva Sans', Arial, sans-serif; col=
+or:#ffffff; text-align:right;">
+=09=09=09=09=09=09=09=09=09=09=09<strong>=C2=A5 328.00</strong>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09</tr>
+        </table>
+=09=09                                            </th>
+                                        </tr>
+                                                                           =
+ </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+           =20
+
+        <!-- Summary -->
+                        <table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+                <tr>
+                    <td class=3D"pb-10 pt-10" style=3D"padding-bottom: 10px=
+; padding-top: 10px;">
+                        <table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+                            <tr>
+                                <th class=3D"column-top" valign=3D"top" wid=
+th=3D"375" bgcolor=3D"#17191c" style=3D"font-size:0pt; line-height:0pt; pad=
+ding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                    <table width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+                                        <tr>
+                                            <td class=3D"p-15" style=3D"pad=
+ding: 15px;">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                           =
+                                 <tr>
+                                                            <td class=3D"pb=
+-5" style=3D"padding-bottom: 5px;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4" width=3D"140" style=3D"font-size:=
+12px; line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-=
+align:left; color:#f1f1f1;">
+                                                                           =
+ =E5=B8=90=E6=88=B7=E5=90=8D=E7=A7=B0=EF=BC=9A                             =
+                                           </td>
+                                                                        <td=
+ valign=3D"top" class=3D"img" width=3D"10" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4 mt-right" style=3D"font-size:12px;=
+ line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align=
+:left; color:#f1f1f1;">
+                                                                           =
+ <strong>yuhui&#8203;ming1&#8203;997&#8203;</strong>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                                           =
+                                 <tr>
+                                                            <td class=3D"pb=
+-5" style=3D"padding-bottom: 5px;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4" width=3D"140" style=3D"font-size:=
+12px; line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-=
+align:left; color:#f1f1f1;">
+                                                                           =
+ =E5=8F=91=E7=A5=A8=EF=BC=9A                                               =
+                         </td>
+                                                                        <td=
+ valign=3D"top" class=3D"img" width=3D"10" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4 mt-right" style=3D"font-size:12px;=
+ line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align=
+:left; color:#f1f1f1;">
+                                                                           =
+ <strong>3991957917725492667</strong>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                                           =
+                                 <tr>
+                                                            <td class=3D"pb=
+-5" style=3D"padding-bottom: 5px;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4" width=3D"140" style=3D"font-size:=
+12px; line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-=
+align:left; color:#f1f1f1;">
+                                                                           =
+ =E5=88=9B=E5=BB=BA=E6=97=A5=E6=9C=9F=EF=BC=9A                             =
+                                           </td>
+                                                                        <td=
+ valign=3D"top" class=3D"img" width=3D"10" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4 mt-right" style=3D"font-size:12px;=
+ line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align=
+:left; color:#f1f1f1;">
+                                                                           =
+ <strong>2024 =E5=B9=B4 6 =E6=9C=88 9 =E6=97=A5 =E4=B8=8B=E5=8D=88 12:20 CS=
+T</strong>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                                           =
+                                 <tr>
+                                                            <td class=3D"pb=
+-5" style=3D"padding-bottom: 5px;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4" width=3D"140" style=3D"font-size:=
+12px; line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-=
+align:left; color:#f1f1f1;">
+                                                                           =
+ =E6=94=AF=E4=BB=98=E6=96=B9=E5=BC=8F=EF=BC=9A                             =
+                                           </td>
+                                                                        <td=
+ valign=3D"top" class=3D"img" width=3D"10" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4 mt-right" style=3D"font-size:12px;=
+ line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align=
+:left; color:#f1f1f1;">
+                                                                           =
+ <strong>=E5=BE=AE=E4=BF=A1=E6=94=AF=E4=BB=98</strong>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                                           =
+                         </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th class=3D"column mpb-10" width=3D"10" st=
+yle=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:nor=
+mal;"></th>
+                                <th class=3D"column-top" valign=3D"top" bgc=
+olor=3D"#17191c" style=3D"font-size:0pt; line-height:0pt; padding:0; margin=
+:0; font-weight:normal; vertical-align:top;">
+                                    <table width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+                                        <tr>
+                                            <td class=3D"p-15" style=3D"pad=
+ding: 15px;">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                           =
+                                 <tr>
+                                                            <td class=3D"pb=
+-5" style=3D"padding-bottom: 5px;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4" style=3D"font-size:12px; line-hei=
+ght:18px; font-family:'Motiva Sans', Arial, sans-serif; text-align:left; co=
+lor:#f1f1f1;">
+                                                                           =
+ =E5=90=88=E8=AE=A1=EF=BC=9A                                               =
+                         </td>
+                                                                        <td=
+ valign=3D"top" class=3D"img" width=3D"10" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                        <td=
+ valign=3D"top" class=3D"text-12 c-grey4 a-right" style=3D"font-size:12px; =
+line-height:18px; font-family:'Motiva Sans', Arial, sans-serif; color:#f1f1=
+f1; text-align:right;">
+                                                                           =
+ =C2=A5 328.00                                                             =
+           </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                                           =
+                         </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </th>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+                    <!-- END Summary -->
+
+        <!-- Billing and Shipping - Done -->
+            <!-- END Billing and Shipping - Done -->
+
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+                <tr>
+                    <td class=3D"pb-30" style=3D"padding-bottom: 30px;">
+                        <table width=3D"210" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+                            <tr>
+                                <td><br>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+           =20
+            <!-- Text -->
+            =09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"text-18 c-grey4 pb-30" style=3D"font-size:18px;=
+ line-height:25px; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left; color:#dbdbdb; padding-bottom: 30px;">                =E8=BF=99=
+=E5=B0=81=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E5=B0=86=E4=BD=9C=E4=B8=BA=
+=E6=82=A8=E7=9A=84=E6=94=B6=E6=8D=AE=E3=80=82=E6=82=A8=E4=B9=9F=E5=8F=AF=
+=E4=BB=A5=E9=9A=8F=E6=97=B6<a href=3D"https://store.steampowered.com/accoun=
+t/history/">=E6=9F=A5=E7=9C=8B=E6=82=A8=E7=9A=84=E6=B6=88=E8=B4=B9=E5=8E=
+=86=E5=8F=B2=E8=AE=B0=E5=BD=95</a>=E3=80=82                <br/><br/>
+                Steam =E4=B8=8A=E7=9A=84=E8=AE=B8=E5=A4=9A=E4=BA=A7=
+=E5=93=81=E6=94=AF=E6=8C=81=E9=80=80=E6=AC=BE=E5=92=8C/=E6=88=96=E9=80=
+=80=E8=B4=A7=E3=80=82=E7=82=B9=E5=87=BB<a href=3D"https://store.steampowere=
+d.com/steam_refunds/">=E8=BF=99=E9=87=8C</a>=E4=BA=86=E8=A7=A3=E6=9B=B4=
+=E5=A4=9A=E5=85=B3=E4=BA=8E Steam =E9=80=80=E6=AC=BE=E7=9A=84=E5=86=85=
+=E5=AE=B9=EF=BC=8C=E6=88=96=E7=82=B9=E5=87=BB<a href=3D"https://help.steamp=
+owered.com/">=E8=BF=99=E9=87=8C</a>=E7=94=B3=E8=AF=B7=E9=80=80=E6=AC=BE=
+=E3=80=82                </td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09            <!-- End Text -->
+
+=09=09=09
+
+
+                                                                           =
+                     <!-- Signature -->
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td class=3D"pt-30"=
+ style=3D"padding-top: 30px;">
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                <tr>
+                                                                    <td cla=
+ss=3D"img" width=3D"3" bgcolor=3D"#3a9aed" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                    <td cla=
+ss=3D"img" width=3D"37" style=3D"font-size:0pt; line-height:0pt; text-align=
+:left;"></td>
+                                                                    <td>
+                                                                        <ta=
+ble width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                           =
+ <tr>
+                                                                           =
+                                                                           =
+              <td class=3D"text-16 py-20 c-grey4 fallback-font" style=3D"fo=
+nt-size:16px; line-height:22px; font-family:Arial, sans-serif, 'Motiva Sans=
+'; text-align:left; padding-top: 20px; padding-bottom: 20px; color:#f1f1f1;=
+">
+                                                                           =
+             =E7=A5=9D=E6=82=A8=E6=84=89=E5=BF=AB=EF=BC=8C<br />
+Steam =E5=9B=A2=E9=98=9F                                                   =
+                                 </td>
+                                                                           =
+                                                                           =
+      </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- END Signature -->
+                                               =20
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- END Main -->
+
+                                <!-- Footer -->
+                                <tr>
+                                    <td class=3D"py-60 px-90 mpy-40 mpx-15"=
+ style=3D"padding-top: 60px; padding-bottom: 60px; padding-left: 90px; padd=
+ing-right: 90px;">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+
+                                                                           =
+             <tr>
+                                                <td class=3D"text-18 pb-60 =
+mpb-40 fallback-font" style=3D"font-size:18px; line-height:25px; color:#000=
+001; font-family:Arial, sans-serif, 'Motiva Sans'; text-align:left; padding=
+-bottom: 60px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09                           =
+             =09=E6=AD=A4=E9=80=9A=E7=9F=A5=E5=B7=B2=E5=8F=91=E9=80=81=
+=E8=87=B3=E4=B8=8E=E6=82=A8=E7=9A=84 Steam =E5=B8=90=E6=88=B7=E5=85=B3=
+=E8=81=94=E7=9A=84=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E5=9C=B0=E5=9D=80=
+=E3=80=82=09=09=09=09=09=09=09=09=09=09=09=09=09                           =
+                         <br /><br />
+=09=09=09                                        =E8=BF=99=E5=B0=81=
+=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E7=94=B1=E7=B3=BB=E7=BB=9F=E8=87=AA=
+=E5=8A=A8=E7=94=9F=E6=88=90=EF=BC=8C=E8=AF=B7=E5=8B=BF=E5=9B=9E=E5=A4=8D=
+=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E9=9C=80=E8=A6=81=E9=A2=9D=E5=A4=96=
+=E5=B8=AE=E5=8A=A9=EF=BC=8C=E8=AF=B7=E8=AE=BF=E9=97=AE Steam =E5=AE=A2=
+=E6=9C=8D=E3=80=82                                                </td>
+                                            </tr>
+                                           =20
+                                                                           =
+             <!-- A -->
+                                                                           =
+             <tr>
+                                            <td class=3D"pb-60" style=3D"pa=
+dding-bottom: 60px;">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <th class=3D"column=
+" width=3D"270" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:=
+0; font-weight:normal;">
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                <tr>
+                                                                    <td cla=
+ss=3D"text-18 mpb-40 fallback-font" style=3D"font-size:18px; line-height:25=
+px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left;">
+                                                                        <a =
+href=3D"https://help.steampowered.com" target=3D"_blank" class=3D"link-u c-=
+black" style=3D"text-decoration:underline; color:#000001;">
+                                                                           =
+ <span class=3D"link-u c-black" style=3D"text-decoration:underline; color:#=
+000001;">https://help.steampowered.com</span>
+                                                                        </a=
+>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </th>
+                                                                           =
+                                 </tr>
+                                                </table>
+                                            </td>
+                                            </tr>
+                                           =20
+
+                                            <!-- B -->
+                                                                           =
+                 <tr>
+                                                    <td class=3D"pb-50" sty=
+le=3D"padding-bottom: 50px;">
+                                                        <table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                            <tr>
+                                                                <th class=
+=3D"column" width=3D"270" valign=3D"top" style=3D"font-size:0pt; line-heigh=
+t:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                    <table =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                        <tr=
+>
+                                                                           =
+ <td class=3D"img mpt-0" style=3D"font-size:0pt; line-height:0pt; text-alig=
+n:left;">
+                                                                           =
+     <a href=3D"https://store.steampowered.com/" target=3D"_blank"><img src=
+=3D"https://store.akamai.steamstatic.com/public/shared/images/email/logo_fo=
+oter.png" width=3D"165" height=3D"50" border=3D"0" alt=3D"" /></a>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                    </table=
+>
+                                                                </th>
+                                                                <th class=
+=3D"column-top mpb-40" width=3D"15" style=3D"font-size:0pt; line-height:0pt=
+; padding:0; margin:0; font-weight:normal; vertical-align:top;"></th>
+                                                                <th class=
+=3D"column" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; f=
+ont-weight:normal;">
+                                                                    <table =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                           =
+                                                                         <t=
+r>
+                                                                           =
+     <td class=3D"text-12 fallback-font" style=3D"font-size:12px; line-heig=
+ht:18px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-=
+align:left;">
+                                                                           =
+                                                                           =
+                      =E8=8B=A5=E8=A6=81=E4=B8=8B=E8=BD=BD Steam =E6=A1=
+=8C=E9=9D=A2=E5=AE=A2=E6=88=B7=E7=AB=AF=E5=B9=B6=E8=BF=9B=E4=B8=80=E6=AD=
+=A5=E4=BA=86=E8=A7=A3 Steam=EF=BC=8C=E8=AF=B7=E8=AE=BF=E9=97=AE=E2=80=9C=
+=E5=85=B3=E4=BA=8ESteam=E2=80=9D=E3=80=82                                  =
+                                                      <br /><br />
+                                                                           =
+             <a href=3D"https://store.steampowered.com/about/" target=3D"_b=
+lank" class=3D"link-u c-black" style=3D"text-decoration:underline; color:#0=
+00001;">
+                                                                           =
+                 <span class=3D"link-u c-black" style=3D"text-decoration:un=
+derline; color:#000001;"><strong>=E5=85=B3=E4=BA=8E Steam</strong>
+                                                                           =
+                 </span>
+                                                                           =
+             </a>
+                                                                           =
+                                                                           =
+              </td>
+                                                                           =
+ </tr>
+                                                                           =
+                                                                 </table>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                           =20
+
+                                            <!-- C -->
+                                            <tr>
+                                                <td>
+                                                    <table width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                        <tr>
+                                                            <th class=3D"co=
+lumn-top" valign=3D"top" width=3D"270" style=3D"font-size:0pt; line-height:=
+0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ class=3D"img" style=3D"font-size:0pt; line-height:0pt; text-align:left;">
+                                                                           =
+ <a href=3D"https://www.valvesoftware.com/en/" target=3D"_blank">
+                                                                           =
+                                                                           =
+          <img src=3D"https://store.akamai.steamstatic.com/public/shared/im=
+ages/email/logo_valve.jpg" width=3D"165" height=3D"48" border=3D"0" alt=3D"=
+" />
+                                                                           =
+                                                                           =
+      </a>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                            <th class=3D"co=
+lumn-top mpb-40" valign=3D"top" width=3D"15" style=3D"font-size:0pt; line-h=
+eight:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;"></=
+th>
+                                                            <th class=3D"co=
+lumn-top" valign=3D"top" style=3D"font-size:0pt; line-height:0pt; padding:0=
+; margin:0; font-weight:normal; vertical-align:top;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ class=3D"text-12 pb-30 fallback-font" style=3D"font-size:12px; line-height=
+:18px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-al=
+ign:left; padding-bottom: 30px;">
+=09                                                                        =
+                                                                           =
+     <strong>=C2=A9 Valve Corporation</strong>
+                                                                           =
+     <br />
+                                                                           =
+     <strong>PO Box 1688 Bellevue, WA 98009</strong>
+                                                                           =
+     <br /><br />
+=09=09                                                                     =
+   =E4=BF=9D=E7=95=99=E6=89=80=E6=9C=89=E6=9D=83=E5=88=A9=E3=80=82=E6=89=
+=80=E6=9C=89=E5=95=86=E6=A0=87=E5=9D=87=E4=B8=BA=E5=85=B6=E5=9C=A8=E7=BE=
+=8E=E5=9B=BD=E5=8F=8A=E5=85=B6=E4=BB=96=E5=9B=BD=E5=AE=B6/=E5=9C=B0=
+=E5=8C=BA=E7=9A=84=E5=90=84=E8=87=AA=E6=8C=81=E6=9C=89=E8=80=85=E6=89=80=
+=E6=9C=89=E3=80=82=09                                                      =
+                                                                           =
+               </td>
+                                                                    </tr>
+                                                                   =20
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            <!-- END Footer -->
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+
+    <center style=3D"font-family:Arial, sans-serif, 'Motiva Sans'; color: #=
+000000; font-size: 11px; margin-bottom: 4px;">
+        =E6=9F=A5=E7=9C=8B=E6=AD=A4=E6=B6=88=E6=81=AF=E6=97=B6=E9=81=87=
+=E5=88=B0=E9=97=AE=E9=A2=98=EF=BC=9F        <a href=3D"https://store.steamp=
+owered.com//account/receipt/3991957917725492667"
+            style=3D"font-family:Arial, sans-serif, 'Motiva Sans'; color: #=
+000000; font-size: 11px; margin-bottom: 4px;">
+            =E7=82=B9=E5=87=BB=E6=AD=A4=E5=A4=84        </a>
+    </center>
+
+</body>
+</html>
+
+
+--np66652dca1aacc--
