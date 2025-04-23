@@ -5,8 +5,7 @@ edition = "2021"
 
 [dependencies]
 mailparse = "0.14"  # 用于解析EML文件
-mime = "0.3"        # 用于处理MIME类型
-encoding = "0.2"    # 用于处理字符编码
+
 
 
 [target.x86_64-pc-windows-gnu]
